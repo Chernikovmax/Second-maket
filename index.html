@@ -7,9 +7,34 @@
 </head>
 <body>
   <header class="header">
+      <section class="hidden-menu">
+        <input type="checkbox" id="hmt" class="hidden-menu-ticker">
+        <label class="btn-menu" for="hmt">
+          <span class="first"></span>
+          <span class="second"></span>
+          <span class="third"></span>
+        </label>
+        <label class="btn-menu-close" for="hmt">
+          <span class="first-close"></span>
+          <span class="second-close"></span>
+        </label>
+        <ul class="hidden-menu-list">
+          <li class="menu-link-border" id="hidden-menu-info">
+            <span class="hidden-menu-heading">Chernikov Max</span>
+            <span class="hidden-menu-text">Web Programmer</span>
+          </li>
+          <li class="menu-link-border"><a class="menu-link-style" href="#">Home</a></li>
+          <li class="menu-link-border"><a class="menu-link-style" href="#">About Me</a></li>
+          <li class="menu-link-border"><a class="menu-link-style" href="#">Educatoion</a></li>
+          <li class="menu-link-border"><a class="menu-link-style" href="#">Work Experience</a></li>
+          <li class="menu-link-border"><a class="menu-link-style" href="#">Skills</a></li>
+          <li class="menu-link-border"><a class="menu-link-style" href="#">Portfolio</a></li>
+          <li class="menu-link-border"><a class="menu-link-style" href="#">Contacts</a></li>
+        </ul>
+      </section>
       <h1 class="upper-title">Lets Make Something Great</h1>
       <p class="upper-title-description">
-        I’m an UI designer that prides ourself on being strategic brand partners and<br>awesome product providers
+        I’m an Web programmer that prides ourself on being strategic brand partners and<br>awesome product providers
       </p>
       <button class="btn-hire-me">
         Hire me!
@@ -44,7 +69,7 @@
     <div class="second-layout">
       <div class="second-layout-filling">
         <div class="left-side">
-          <div class="wrk-exp-heading">
+          <div class="layouts-heading">
             <h2 class="regular-heading">Work Experience<hr align="left" class="short-pink-underline"></h2>
           </div>
           <section class="wrk-exp-1-cloud-position">
@@ -157,25 +182,99 @@
     <div class="fourth-layout">
       <div class="left-side">
         <h3 class="myskills-heading">My Skills<hr align="left" class="short-pink-underline"></h3>
-        <p class="slider-name">User Experience</p>
-        <input class="slider" type="range" min="0" max="100" step="1" value="90">
-        <p class="slider-name">User Interface</p>
-        <input class="slider" type="range" min="0" max="100" step="1" value="98">
-        <p class="slider-name">Web Design</p>
-        <input class="slider" type="range" min="0" max="100" step="1" value="70">
+        <section class="sliders-n-headings-n-percents">
+          <section class="sliders-n-headings">
+            <p class="slider-name">User Experience</p>
+            <input class="slider" type="range" min="0" max="100" step="1" value="90" disabled>
+          </section>
+          <span class="values-n-percents">90%</span>
+        </section>
+        <section class="sliders-n-headings-n-percents">
+          <section class="sliders-n-headings">
+            <p class="slider-name">User Interface</p>
+            <input class="slider" type="range" min="0" max="100" step="1" value="98" disabled>
+          </section>
+          <span class="values-n-percents">98%</span>
+        </section>
+        <section class="sliders-n-headings-n-percents">
+          <section class="sliders-n-headings">
+            <p class="slider-name">Web Design</p>
+            <input class="slider" type="range" min="0" max="100" step="1" value="70" disabled>
+          </section>
+          <span class="values-n-percents">70%</span>
+        </section>
       </div>
+      <div class="right-side-myskills">
+        <section class="sliders-n-headings-n-percents">
+          <section class="sliders-n-headings">
+            <p class="slider-name">User Experience</p>
+            <input class="slider" type="range" min="0" max="100" step="1" value="90" disabled>
+          </section>
+          <span class="values-n-percents">90%</span>
+        </section>
+        <section class="sliders-n-headings-n-percents">
+          <section class="sliders-n-headings">
+            <p class="slider-name">User Interface</p>
+            <input class="slider" type="range" min="0" max="100" step="1" value="80" disabled>
+          </section>
+          <span class="values-n-percents">80%</span>
+        </section>
+        <section class="sliders-n-headings-n-percents">
+          <section class="sliders-n-headings">
+            <p class="slider-name">Web Design</p>
+            <input class="slider" type="range" min="0" max="100" step="1" value="96" disabled>
+          </section>
+          <span class="values-n-percents">96%</span>
+        </section>
+      </div>
+    </div>
+    <div class="fifth-layout">
+      <div class="left-side">
+        <h4 class="fifth-lo-heading">Leave a Message</h4>
+        <form class="join-me-form">
+          <input class="form-inputs" type="text" placeholder="Name*">
+          <input class="form-inputs" type="text" placeholder="Email*">
+          <input class="form-message-input" type="text" placeholder="Message*">
+          <input class="form-submit" type="submit" value="Hire Me!">
+        </form>
+      </div>
+      <hr class="fifth-lo-middle-border"></hr>
       <div class="right-side">
-        <p class="slider-name">User Experience</p>
-        <input class="slider" type="range" min="0" max="100" step="1" value="90">
-        <p class="slider-name">User Interface</p>
-        <input class="slider" type="range" min="0" max="100" step="1" value="80">
-        <p class="slider-name">Web Design</p>
-        <input class="slider" type="range" min="0" max="100" step="1" value="96">      
+        <section class="icon-n-text1">
+          <img class="home-icon" src="icons/home.png">
+          <p class="fifth-lo-text">
+            <span class="fifth-lo-miniheadings">Location</span><br><span class="fifth-lo-text-formatting">324, Golden Tower, Amborkhana, Sylhet</span>
+          </p>
+        </section>
+        <section class="icon-n-text2">
+          <img class="mail-icon" src="icons/mail.png">
+          <p class="fifth-lo-text">
+            <span class="fifth-lo-miniheadings">Email</span><br><span class="fifth-lo-text-formatting">chernikovmax@outlook.com</span>
+          </p>
+        </section>
+        <section class="icon-n-text2">
+          <img class="phone-icon" src="icons/phone.png">
+          <p class="fifth-lo-text">
+            <span class="fifth-lo-miniheadings">Toll Free Call</span><br><span class="fifth-lo-text-formatting">+79616764488</span>
+          </p>
+        </section>
       </div>
     </div>
   </main>
-  <footer>
-
+  <footer class="footer">
+<hr class="underlayouts-hr">
+<div class="social-panel">
+  <a class="twitter" rel="nofollow" href="https://twitter.com/variantovmalo" title="variantovmalo в Twitter">
+    <img class="twitter-icon" src="icons/twitter.png">
+  </a>
+  <hr class="social-panel-hr">
+  <img class="skype" src="icons/skype.png">
+  <hr class="social-panel-hr">
+  <a class="dribbble" rel="nofollow" href="https://dribbble.com" title="dribbble.com">
+    <img class="dribble-icon" src="icons/dribble.png">
+  </a>
+</div>
+<span class="copyright">Copyright: Junaed Ahmed, All rights reserved</span>
   </footer>
 </body>
 </html>
