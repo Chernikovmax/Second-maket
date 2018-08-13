@@ -204,7 +204,7 @@ html, body {
 }
 
 .short-pink-underline {
-  margin-bottom: 0;
+  margin: 18px 0 0 0;
   width: 76px;
   height: 2px;
   background-color: #fb6470;
@@ -789,4 +789,194 @@ html, body {
   font-size: 12px;
   font-weight: 500;
   line-height: 50px;
+}
+
+
+/* Styles for Portfolio.html only */
+
+
+.portfolio-heading {
+  margin: 79px 612px 0 0;
+  color: #3e3e3e;
+  font-family: "RalewaySemiBold";
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.underheading {
+  margin: 10px 0 0 0;
+  width: 76px;
+  height: 2px;
+  background-color: #fb6470;
+  border: none;
+}
+
+.fake-menu-head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.fake-menu-headings {
+  position: relative;
+  top: 40px;
+  color: #3e3e3e;
+  font-family: "Raleway";
+  font-size: 16px;
+  font-weight: 800;
+  margin: 0 70px;
+}
+
+.fake-menu-hrs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fake-menu-main-line {
+  position: relative;
+  top: 42px;
+  z-index: 1;
+  width: 740px;
+  height: 2px;
+  background-color: #cccccc;
+  opacity: 0.2;
+}
+
+.fake-menu-sub-line {
+  position: relative;
+  top: 22px;
+  right: 316px;
+  z-index: 2;
+  width: 109px;
+  height: 2px;
+  background-color: #f27982;
+  opacity: 0.8;
+  border: none;
+}
+
+.portfolio-imgs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.portfolio-left-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 80px 10px 0 0;
+}
+
+.portfolio-right-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 80px 0 0 10px;
+}
+
+/* Left side of pportfolio cards*/
+
+.marketing_partner-img-section {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 352px;
+  background-color: #01b9c3;
+}
+
+.portfolio-card-text {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 225px;
+  left: 17px;
+}
+
+.portfolio-card-heading {
+  color: #ffffff;
+  opacity: 0.9;
+  font-family: "Raleway";
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+.portfolio-card-maintext {
+  color: #ffffff;
+  opacity: 0.8;
+  font-family: "Raleway";
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.portfolio-card-bottomtext {
+  width: 92px;
+  height: 40px;
+  color: #ffffff;
+  opacity: 0.8;
+  font-family: "Raleway";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 50px;
+  border-bottom: 1px solid #ffffff;
+
+}
+
+.portfolio-card-img {
+  position: absolute;
+}
+
+.music_player_disign-img-section {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 352px;
+  background-color: #3f3d3e;
+  margin-top: 22px;
+}
+
+.marketing_partner2-img-section {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 352px;
+  background-color: #353541;
+  margin-top: 22px;
+}
+
+/* Right side of pportfolio cards*/
+
+.website_design-img-section {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 352px;
+  background-color: #1e2e3e;
+}
+
+.marketing_partner3-img-section {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 352px;
+  background-color: #0093b5;
+  margin-top: 22px;
+}
+
+.software_development-img-section {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 352px;
+  background-color: #6176ab;
+  margin-top: 22px;
+}
+
+.portfolio-second-layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 466px;
+  background-color: #ffffff;
 }
