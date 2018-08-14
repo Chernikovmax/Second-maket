@@ -768,6 +768,7 @@ html, body {
   margin: 0 5px;
   background-color: #212121;
   opacity: 0.3;
+  border: none;
 }
 
 .twitter {
@@ -920,7 +921,6 @@ html, body {
   font-weight: 500;
   line-height: 50px;
   border-bottom: 1px solid #ffffff;
-
 }
 
 .portfolio-card-img {
@@ -974,6 +974,232 @@ html, body {
 }
 
 .portfolio-second-layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 466px;
+  background-color: #ffffff;
+}
+
+
+/* Styles for resume.html only */
+
+
+.resume-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.header-background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-background-upper-color {
+  width: 750px;
+  height: 448px;
+  background-color: #353541;
+}
+
+.header-background-bottom-color {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 750px;
+  height: 148px;
+  background-color: #3d4f59;
+}
+
+.resume-header-heading {
+  color: #ffffff;
+  font-family: "Raleway";
+  font-size: 32px;
+  font-weight: 500;
+  margin: 25px 0 0 16px;
+}
+
+.resume-header-text {
+  opacity: 0.8;
+  color: #ffffff;
+  font-family: "Raleway";
+  font-size: 18px;
+  font-weight: 500;
+  margin: 12px 0 0 16px;
+}
+
+.resume-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resume-first-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    width: 100%;
+}
+
+.resume-upper-text {
+  color: #5c5c5c;
+  font-family: "Raleway";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 36px 300px 230px 0;
+}
+
+.resume-middle-text {
+  color: #5c5c5c;
+  font-family: "Raleway";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 0;
+}
+
+.resume-bottom-text {
+  color: #5c5c5c;
+  font-family: "Raleway";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 46px 200px 0 0;
+}
+
+.comments {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fake-commentary-style {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 46px 48px 0 0;
+}
+
+.comment-header {
+  margin: 80px 596px 0 0;
+  width: 154px;
+  height: 47px;
+  background-color: #333333;
+  text-align: center;
+  color: #ffffff;
+  font-family: "calibri";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  box-sizing: border-box;
+  padding-top: 8px;
+}
+
+.fake-commentator-photo {
+   width: 75px;
+   height: 76px;
+}
+
+.fake-comment-text {
+  margin-left: 20px;
+}
+
+.fake-commentator-name {
+  color: #333333;
+  font-family: "Raleway";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.fake-comment-date {
+  margin-left: 12px;
+  opacity: 0.8;
+  color: #333333;
+  font-family: "Raleway";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.fake-commentary {
+  color: #7d7d7d;
+  font-family: "Raleway";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.fake-sub-commentary-style {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 7px 0 0 25px;
+}
+
+.mini-text-between-comments {
+  color: #222222;
+  font-family: "Raleway";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 32px;
+  margin: 25px 0 0 120px;
+}
+
+.fake-subcomment-text {
+  position:  relative;
+  bottom: 20px;
+  left: 20px;
+}
+
+.new-commentary-style {
+  display: flex;
+  flex-direction: column;
+}
+.comment-email {
+  width: 312px;
+  height: 46px;
+  border: 1px solid #000000;
+  opacity: 0.7;
+  margin: 10px 0 13px 0;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 3px 0 0 22px;
+}
+
+.comment-input {
+  width: 312px;
+  height: 169px;
+  border: 1px solid #000000;
+  opacity: 0.7;
+  margin-bottom: 11px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0 0 120px 22px;
+}
+
+.comment-submit {
+  width: 312px;
+  height: 46px;
+  background-color: #000000;
+  opacity: 0.8;
+  color: #ffffff;
+  font-family: "Raleway";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  border: none;
+}
+
+.contacts {
   display: flex;
   flex-direction: row;
   justify-content: center;
