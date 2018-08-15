@@ -1147,13 +1147,14 @@ html, body {
   margin: 7px 0 0 25px;
 }
 
-.mini-text-between-comments {
+.reply-bnt {
+  border: none;
+  background: none;
   color: #222222;
   font-family: "Raleway";
   font-size: 16px;
-  font-weight: 500;
-  line-height: 32px;
-  margin: 25px 0 0 120px;
+  font-weight: 590;
+  margin: 25px 0 5px 120px;
 }
 
 .fake-subcomment-text {
